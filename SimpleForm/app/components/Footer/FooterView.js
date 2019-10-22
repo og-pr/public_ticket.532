@@ -10,7 +10,6 @@ import SVG from 'react-inlinesvg';
 // hex colors for icons @ https://simpleicons.org/
 const Footer = (props) => (
   <footer>
-    <div className="container">
       <ul style={{alignItems:"center", justifyContent:"center"}} className="list-inline list-social">
         <li className="list-social-icon social-twitter"><a href="#" style={{textDecoration: "none"}}> <SVG src={svgTwitter} width='25px' height='25px' fill='white' /> </a></li>
         <li className="list-social-icon social-github"><a href="#" style={{textDecoration: "none"}}> <SVG src={svgGithub} width='25px' height='25px' fill='white' /> </a></li>
@@ -24,7 +23,6 @@ const Footer = (props) => (
       <ul className="list-inline">
         <li className="list-inline-item">&copy; 2019 New Ventures LLC. All Rights Reserved.</li>
       </ul>
-    </div>
   </footer>
 ///
 )

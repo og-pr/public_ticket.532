@@ -4,17 +4,11 @@ import './style.css';
 import Newsletter from '../../components/Newsletter';
  
 const ValueProp = (props) => (
-  <section className="vp">
-    <div className="vp-content">
-      <div className="container">
-        <h2>
-        Stop waiting. Start now. <br />
-        Stop waiting. Start now. <br />
-
-        </h2>
+  <section className="vp" style={{alignItems:"center", justifyContent:"center"}} >
+        <h1>  I want it !</h1>
+        <h2>Get priority access<br />to exclusive deals !!</h2> <br />
         <Newsletter />
-      </div>
-    </div>
+        <small>By submitting, you agree to recieve<br/>email periodically and can opt-out at any time.</small><br />
     {/* if needed, overlay div goes here */}
   </section>
 ///

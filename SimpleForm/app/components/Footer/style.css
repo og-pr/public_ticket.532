@@ -4,8 +4,12 @@ footer {
   letter-spacing: 1px;
   text-align: center;
   color: #000;
-  background-color: #fff; 
-  margin-left: 65px;  /* align footer to center of graphic */
+  background-color: #fff;
+
+  position: relative; 
+  margin-left: 80px;
+
+  /* margin-left: 65px; */ /* align footer to center of graphic */
 }
 
 footer p {

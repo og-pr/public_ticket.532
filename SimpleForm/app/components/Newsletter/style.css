@@ -6,6 +6,11 @@ section.newsletter {
   -o-background-size: cover;
   background-size: cover; 
   margin-left: 90px; 
+
+  top: -100px;
+  position: relative;
+  left: 20px;
+
 }
 
 section.newsletter .formContainer {
