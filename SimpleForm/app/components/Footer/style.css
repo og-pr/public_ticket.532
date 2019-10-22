@@ -51,7 +51,7 @@ footer ul.list-social .list-social-icon {
 }
 
 
-/* Media queries for responsiveness */
+/* Extra media queries for responsiveness */
 @media screen and (max-width: 500px) {
   footer {
   margin-left: 0px!important;  

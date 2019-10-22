@@ -7,8 +7,6 @@ import svgFacebook from './img/facebook.svg';
 import svgGithub from './img/github.svg'; 
 import SVG from 'react-inlinesvg';
 
-console.log('o.log > FooterView.js')
-
 // hex colors for icons @ https://simpleicons.org/
 const Footer = (props) => (
   <footer>
