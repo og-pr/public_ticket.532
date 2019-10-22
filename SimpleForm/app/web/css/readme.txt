@@ -2,7 +2,7 @@
 	* meyer
 	* sanitize
 	* vanilla post
-	* o.style (includes grid + screen)
+	* o.style (includes grid, media queries, responsive typography)
 
 	< all files minimized ; goal of file = reset + minimum css for landing page using no library >
 
