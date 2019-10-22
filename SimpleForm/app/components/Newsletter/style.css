@@ -1,0 +1,77 @@
+section.newsletter {
+  position: relative;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  margin-left: 90px; 
+}
+
+section.newsletter .formContainer {
+  position: relative;
+  z-index: 1;
+}
+
+section.newsletter .formContainer h2 {
+  font-size: 50px;
+  font-weight: 100; /* 100 - 900 ; 400 = normal ; 700 = bold */
+  line-height: 1.1!important;
+  letter-spacing: 1px;
+  max-width: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black!important; 
+}
+
+/* Extra media queries for responsiveness */
+@media (min-width: 768px) {
+  section.newsletter .formContainer h2 {
+    font-weight: 100; 
+    font-size: 20px; 
+    line-height: 1.1!important;
+    letter-spacing: 1px;
+  } 
+}
+
+.formButton {
+  font-weight: 100; 
+  background-color: #dc2430;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px; 
+  letter-spacing: 1px;
+}
+
+.formButtonText {
+    color: '#FFFFFF';
+    text-align: "center";
+    font-size: 50px;
+    font-weight: 100; 
+    line-height: 1.1!important;
+    letter-spacing: 1px;
+}
+
+.formContainer {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.formContainer input {
+  width: 300px;
+}
+
+.textGreen {
+    color: green;
+}
+
+.textRed {
+    color: red;
+}

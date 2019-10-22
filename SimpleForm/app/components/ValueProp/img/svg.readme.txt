@@ -1,0 +1,17 @@
+* File from freepik.com
+
+* Use Graphic tool (Mac specific)
+  ** remove all items from image not needed
+  ** adjust artwork canvas size to width="500" height="350" 
+  ** save .ai file
+  ** export .svg file
+  ** copy .svg as <original_filename>-demo.svg (for records)
+  ** use demo.svg (remove original file name)
+
+* Compression Tool = https://jakearchibald.github.io/svgomg/
+
+* Post compression
+  ** add width="100%"  
+  ** remove height 
+  ** add view box aka viewBox="0, 0, 500, 350"
+  ** edit css as needed
