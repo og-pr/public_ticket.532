@@ -21,7 +21,7 @@
 }
 
 .header a:hover {
-  background-color: #3385FF; /* ddd = gray */
+  background-color: #3385FF; 
   color: white;
 }
 
@@ -32,7 +32,7 @@
 
 .header-right {
   float: right;
-  top: 8px; /* to align login with logo */
+  top: 8px; 
 }
 
 /* Extra media queries for responsiveness */

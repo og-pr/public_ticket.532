@@ -7,7 +7,6 @@ footer {
   background-color: #fff;
   position: relative; 
   margin-left: 80px;
-  /* margin-left: 65px; */ /* align footer to center of graphic */
 }
 
 footer p {
@@ -35,14 +34,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none; 
 }
 
-/* social icons = https://simpleicons.org */
 svg {
   width: 30px;
   height: 30px;
-  /* line-height: 1.5; */
 }
 svg:hover {
-  fill: #3385FF; /* red */
+  fill: #3385FF; 
 }
 
 footer ul.list-social .list-social-icon {
@@ -50,7 +47,6 @@ footer ul.list-social .list-social-icon {
   margin-bottom: 0;
   padding-bottom: 0; 
 }
-
 
 /* Extra media queries for responsiveness */
 @media screen and (max-width: 768px) {
