@@ -11,9 +11,8 @@ Installation
 ============
 
 * Get the repo
-* From root directory, do ```yarn```
-
-**Required:** Basic ReactJS knowledge. If repo user needs review, please read [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)  
+* From root directory, do ```yarn```\
+**Required** Basic ReactJS knowledge. If repo user needs review, please read [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)  
 
 Run
 ===
@@ -49,3 +48,5 @@ Inspiration
 ===========
 * ReactJS [Lead Form](https://github.com/jacted/lead-form) (missing post and missing data storage)
 * Existing [landing page repo](https://github.com/og-pr/public_ticket.530) missing form; decided to build one 
+* Needed data flow (from Browser to Google Spreadsheet); this repo \
+complements [Managing Firebase Database with Google Sheets](https://medium.com/hackernoon/managining-firebase-database-using-google-sheets-via-google-apps-script-b87e5637b006) (using this [library](https://sites.google.com/site/scriptsexamples/new-connectors-to-google-services/firebase/tutorials/read-and-write-data-in-firebase-from-apps-script))
