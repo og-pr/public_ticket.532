@@ -35,15 +35,15 @@ Notes - Development
 * To save on final bundle/file size, [individual SVGs](https://simpleicons.org/) used 
 * [Form](https://flaviocopes.com/react-forms/) has single input; repo user can expand as needed
 * [Axios](https://github.com/axios/axios) is used to transfer [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) via Post to an internal API
-**Note** The API uses [Google Apps Script](https://developers.google.com/apps-script), a  Cloud Function service
+    **Note** The API uses [Google Apps Script](https://developers.google.com/apps-script), a  Cloud Function service
 * Data is stored in a [Google Spreadsheet](https://www.google.com/sheets/about/) and processed via this (old) [gist](https://github.com/og-pr/all-gists/blob/master/gist.2e%20%3D%20dataCapture.gas.js)
-**Note** A copy of the gist has been updated for internal use and it is private.
+    **Note** A copy of the gist has been updated for internal use and it is private.
 
 Notes - Miscellaneous 
 =====
 * The form is a simple Call-to-Action [(CTA)](https://www.impactbnd.com/blog/examples-of-calls-to-action-for-lead-generation)
 * The modified [graphic](https://www.freepik.com/free-vector/contact-us-landing-page-flat-style_4934492.htm#page=1&query=contact%20us&position=22) is an SVG, as background (in component)
-* Axios can be replaced by [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) ; repo can use this [gist](https://github.com/og-pr/all-gists/blob/master/gist.2d%20%3D%20dataCapture.js) as reference
+* Axios can be replaced by [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) ; repo user can reference this [gist](https://github.com/og-pr/all-gists/blob/master/gist.2d%20%3D%20dataCapture.js)
 
 Inspiration
 ===========
