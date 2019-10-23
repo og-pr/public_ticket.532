@@ -27,7 +27,9 @@ For web, from the root directory, do
 
 Demo & Animated GIFs
 ===========
-* Work in progress
+* [Live Demo](https://t-532-react.web.app/) at [Firebase Hosting](https://firebase.google.com/docs/hosting)
+* [Google PageSpeed Analysis](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ft-532-react.web.app%2F&tab=mobile)
+* Animated GIFs = work in progress
 
 Notes - Development
 ===========
@@ -48,5 +50,5 @@ Inspiration
 ===========
 * ReactJS [Lead Form](https://github.com/jacted/lead-form) (missing post and missing data storage)
 * Existing [landing page repo](https://github.com/og-pr/public_ticket.530) missing form; decided to build one 
-* Needed data flow (from Browser to Google Spreadsheet); this repo \
+* Needed data flow from Browser to Google Spreadsheet; this repo \
 complements [Managing Firebase Database with Google Sheets](https://medium.com/hackernoon/managining-firebase-database-using-google-sheets-via-google-apps-script-b87e5637b006) (using this [library](https://sites.google.com/site/scriptsexamples/new-connectors-to-google-services/firebase/tutorials/read-and-write-data-in-firebase-from-apps-script))
