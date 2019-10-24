@@ -76,35 +76,18 @@ small {
   overflow: hidden; 
 }
 
-.meHide {
-  display: none!important;
-}
-
-.meShow {
-  display: inline!important;
+/* is temp - can be removed */
+.tempClass {
+  /* display: none!important; */
 }
 
 /* CSS specific to Value Prop */
 
-/*
 section.vp {
   position: relative;
   padding: 250px;
   left: -10px;
-  background-image: url('/images/demo.svg'); 
-  background-position: center;
-  background-size: auto auto;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-}
-*/
-
-section.vp {
-  position: relative;
-  padding: 250px;
-  left: -10px;
+  /* demo.svg graphic - main elmement is not centered and creates illusion for other items */
   background-image: url('/images/demo.svg'); /* file copied manually ; image will scale AND will be clipped ; file optimzed manually */
   background-position: center;
   background-size: auto auto;
@@ -152,7 +135,7 @@ section.vp .vp-content h2 {
     padding-bottom: 30px;
     padding-right: 65px;
     padding-left: 2px;
-    background-image: url('/images/demo.svg'); /* file copied manually ; image will scale AND will be clipped ; file optimzed manually */
+    background-image: url('/images/demo.svg'); 
     background-position: center;
   } 
   section h1 {

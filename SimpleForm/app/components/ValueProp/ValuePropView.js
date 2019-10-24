@@ -8,7 +8,7 @@ const ValueProp = (props) => (
         <h1>  I want it !</h1>
         <h2>Give me access<br />to exclusive deals !!</h2> <br />
         <Newsletter />
-    {/* if needed, overlay div goes here */}
+    {/* if needed for form feedback, overlay div goes here */}
   </section>
 ///
 )
