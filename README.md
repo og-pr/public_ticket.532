@@ -27,8 +27,10 @@ For web, from the root directory, do
 
 Demo & Animated GIFs
 ===========
-* [Live Demo](https://t-532-react.web.app/) at [Firebase Hosting](https://firebase.google.com/docs/hosting)
+* [Live Demo](https://t-532-react.web.app/) at [Firebase Hosting](https://firebase.google.com/docs/hosting)\
 * [Google PageSpeed Analysis](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ft-532-react.web.app%2F&tab=mobile)
+**Note** The demo will record email_addresses BUT will *not* send an email.\
+This prevents bad actors from sending [SPAM](https://en.wikipedia.org/wiki/Email_spam) or using the demo to disable or deny service.
 * Animated GIFs = work in progress
 
 Notes - Development

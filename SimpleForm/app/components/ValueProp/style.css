@@ -11,7 +11,7 @@ button.focus, button:focus, .button.focus, .button:focus {
 
 h1 {
   font-size: 60px;
-  font-weight: 100; /* 100 - 900 ; 400 = normal ; 700 = bold */
+  font-weight: 100; 
   line-height: 1.1!important;
   letter-spacing: 1px;
   margin-top: 0;
@@ -19,7 +19,7 @@ h1 {
   margin-bottom: 25px;
   top: -100px;
   position: relative;
-  left: 30px;
+  left: 70px!important;
 }
 
 h2 {
@@ -30,39 +30,19 @@ h2 {
   margin-top: 0;
   margin-right: 5px;
   margin-bottom: 25px;
-  top: -100px;
+  top: -65px;
   position: relative;
-  left: 50px;
+  left: 65px;
 }
 
 small {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 0;
   margin-right: 5px;
   margin-bottom: 25px;
   top: 80px;
   position: relative;
   left: 50px;
-}
-
-/* Extra media queries for responsiveness */
-@media (min-width: 768px) {
-  h1 {
-    font-weight: 100;
-    font-size: 60px; 
-    line-height: 1.1!important;
-    letter-spacing: 1px;
-    top: -100px;
-    position: relative;
-    left: 70px;
-  } 
-  h2 {
-    font-weight: 100;
-    font-size: 45px; 
-    line-height: 1.1!important;
-    letter-spacing: 1px;
-    left: 60px;
-  } 
 }
 
 .break {
@@ -96,7 +76,30 @@ small {
   overflow: hidden; 
 }
 
+.meHide {
+  display: none!important;
+}
+
+.meShow {
+  display: inline!important;
+}
+
 /* CSS specific to Value Prop */
+
+/*
+section.vp {
+  position: relative;
+  padding: 250px;
+  left: -10px;
+  background-image: url('/images/demo.svg'); 
+  background-position: center;
+  background-size: auto auto;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+*/
 
 section.vp {
   position: relative;
@@ -140,32 +143,39 @@ section.vp .vp-content h2 {
 
 /* Extra media queries for responsiveness */
 @media (max-width: 768px) {
+  .mobile-hide {
+    display: none!important;
+  }
   section.vp {
-  left: 5px;
-  padding: 30px;
-  background-image: url('/images/demo.svg'); /* file copied manually ; image will scale AND will be clipped ; file optimzed manually */
-  background-position: center;
+    left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 65px;
+    padding-left: 2px;
+    background-image: url('/images/demo.svg'); /* file copied manually ; image will scale AND will be clipped ; file optimzed manually */
+    background-position: center;
   } 
   section h1 {
     top: 0; 
-    left: 20px;
+    left: 57px!important;
     font-size: 40px;
     font-weight: 100; 
     line-height: 1.1!important;
     letter-spacing: 1px;
   } 
   section h2 {
-    top: 0; 
-    left: 20px;
+    top: 5px; 
+    left: 60px!important;
     font-size: 25px;
     font-weight: 100; 
     line-height: 1.1!important;
     letter-spacing: 1px;
   } 
   section small {
-    top: 0px;
+    font-size: 12px!important;
+    top: 40px;
     position: relative;
-    left: 15px;
+    /* left: 37px!important; */
   } 
 }
 

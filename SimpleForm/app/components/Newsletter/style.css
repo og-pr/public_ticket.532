@@ -27,21 +27,6 @@ section.newsletter .formContainer h2 {
   color: black!important; 
 }
 
-/* Extra media queries for responsiveness */
-@media (max-width: 768px) {
-  section.newsletter, .formContainer h2 {
-    top: 5px;
-    left: -50px;
-    font-weight: 100; 
-    font-size: 20px; 
-    line-height: 1.1!important;
-    letter-spacing: 1px;
-  } 
-  .formButton {
-    margin-left: 50px!important;
-  }
-}
-
 .formButton {
   font-weight: 100; 
   background-color: #dc2430;
@@ -73,7 +58,19 @@ section.newsletter .formContainer h2 {
 }
 
 .formContainer input {
-  width: 300px;
+  width: 280px;
+  font-size: 16px;
+}
+
+/* ref = https://stackoverflow.com/questions/20020866/black-div-with-opacity-showing-as-gray */
+.formFeedback {
+  width: 150%;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+  /* margin-left: -90px; */
+  z-index: 10;
+  overflow: overlay;
 }
 
 .textGreen {
@@ -82,4 +79,33 @@ section.newsletter .formContainer h2 {
 
 .textRed {
     color: red;
+}
+
+/* Extra media queries for responsiveness */
+@media (max-width: 768px) {
+  section.newsletter, .formContainer h2 {
+    top: 5px;
+    /* left: -15px!important; */
+    font-weight: 100; 
+    font-size: 20px; 
+    line-height: 1.1!important;
+    letter-spacing: 1px;
+  } 
+  .formContainer input {
+    margin-left: -25px;
+  }
+  .formFeedback {
+    font-size: 12px; 
+    width: 150%;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    margin-left: -41px!important; 
+    z-index: 10;
+    overflow: overlay;
+  }
+  .formButton {
+    margin-top: 10px !important;
+    margin-left: -20px!important; 
+  }
 }

@@ -7,7 +7,7 @@ const Header = (props) => (
       <a href="#default" className="logo">Logo</a>
     <div className="header-right">
       <a href="#login">Login</a>
-      <a href="#about">About Us</a>
+      <a className="mobile-hide" href="#about">About Us</a>
       </div>
     </div>
   </section>
