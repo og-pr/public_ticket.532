@@ -18,7 +18,7 @@ section.newsletter .formContainer {
 
 section.newsletter .formContainer h2 {
   font-size: 50px;
-  font-weight: 100; /* 100 - 900 ; 400 = normal ; 700 = bold */
+  font-weight: 100; /* 100 - 900 ; 400 = normal ; 700 = bold ; ok for desktop ; not ok for mobile */
   line-height: 1.1!important;
   letter-spacing: 1px;
   max-width: 450px;
@@ -62,7 +62,6 @@ section.newsletter .formContainer h2 {
   font-size: 16px;
 }
 
-/* ref = https://stackoverflow.com/questions/20020866/black-div-with-opacity-showing-as-gray */
 .formFeedback {
   width: 150%;
   height: 200px;
@@ -81,12 +80,12 @@ section.newsletter .formContainer h2 {
     color: red;
 }
 
-/* Extra media queries for responsiveness */
+/* Extra media queries for iOS + Android */
 @media (max-width: 768px) {
   section.newsletter, .formContainer h2 {
     top: 5px;
     /* left: -15px!important; */
-    font-weight: 100; 
+    font-weight: 400; /* 100 = thin fonts on mobile not good UI */
     font-size: 20px; 
     line-height: 1.1!important;
     letter-spacing: 1px;
@@ -105,7 +104,18 @@ section.newsletter .formContainer h2 {
     overflow: overlay;
   }
   .formButton {
+    font-weight: 400; 
     margin-top: 10px !important;
     margin-left: -25px!important; 
+  }
+}
+
+/* Extra media queries ONLY for iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+  .formButton {
+    margin-left: -45px!important; 
+  }
+  .formContainer input {
+    margin-left: -45px!important;
   }
 }

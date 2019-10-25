@@ -1,7 +1,8 @@
 /* Common CSS to all components */
-
-html {
+html, body {
   overflow-x: hidden; 
+  overflow-y: auto;
+  min-height: 100%;
 }
 
 button.focus, button:focus, .button.focus, .button:focus {
@@ -11,7 +12,7 @@ button.focus, button:focus, .button.focus, .button:focus {
 
 h1 {
   font-size: 60px;
-  font-weight: 100; 
+  font-weight: 200; 
   line-height: 1.1!important;
   letter-spacing: 1px;
   margin-top: 0;
@@ -24,7 +25,7 @@ h1 {
 
 h2 {
   font-size: 45px;
-  font-weight: 100; 
+  font-weight: 200; 
   line-height: 1.1!important;
   letter-spacing: 1px;
   margin-top: 0;
@@ -78,20 +79,20 @@ small {
 
 /* is temp - can be removed */
 .tempClass {
-  /* display: none!important; */
+/* display: none!important; */
 }
 
 /* CSS specific to Value Prop */
-
 section.vp {
+  top: -30px;
   position: relative;
   padding: 250px;
-  left: -10px;
+  left: -40px;
   /* demo.svg graphic - main elmement is not centered and creates illusion for other items */
   background-image: url('/images/demo.svg'); /* file copied manually ; image will scale AND will be clipped ; file optimzed manually */
   background-position: center;
   background-size: auto auto;
-  -webkit-background-size: cover; /* cover will clip AND auto hide any part of image on resize = better = less eye distraction = no jitter */
+  -webkit-background-size: cover; /* cover will clip AND auto hide any part of image on resize = better = less jitter (to eye) */
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
@@ -104,7 +105,7 @@ section.vp .vp-content {
 
 section.vp .vp-content h1 {
   font-size: 60px;
-  font-weight: 100; 
+  font-weight: 100; /* 100 - 900 ; 400 = normal ; 700 = bold ; ok for desktop ; not ok for mobile */
   line-height: 1.1!important;
   letter-spacing: 1px;
   margin-top: 0;
@@ -124,13 +125,13 @@ section.vp .vp-content h2 {
   color: black; 
 }
 
-/* Extra media queries for responsiveness */
+/* Extra media queries for iOS + Android */
 @media (max-width: 768px) {
   .mobile-hide {
     display: none!important;
   }
   section.vp {
-    left: 0px;
+    left: -15px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 65px;
@@ -142,7 +143,7 @@ section.vp .vp-content h2 {
     top: 0; 
     left: 57px!important;
     font-size: 40px;
-    font-weight: 100; 
+    font-weight: 400; /* 100 = thin fonts on mobile not good UI */
     line-height: 1.1!important;
     letter-spacing: 1px;
   } 
@@ -150,7 +151,7 @@ section.vp .vp-content h2 {
     top: 5px; 
     left: 60px!important;
     font-size: 25px;
-    font-weight: 100; 
+    font-weight: 400; 
     line-height: 1.1!important;
     letter-spacing: 1px;
   } 
@@ -170,4 +171,12 @@ section.vp .overlay {
   width: 100%;
   height: 100%;
   /* background-color: rgba(0, 0, 0, 0.1); */ /* use 4th value for transparency */
+}
+
+/* Extra media queries ONLY for iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+  section.vp {
+    padding-right: 45px;
+    padding-left: 2px;
+  } 
 }

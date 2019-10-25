@@ -35,7 +35,7 @@
   top: 8px; 
 }
 
-/* Extra media queries for responsiveness */
+/* Extra media queries for iOS + Android */
 @media screen and (max-width: 768px) {
   .header a {
     margin-left: 5px;

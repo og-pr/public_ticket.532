@@ -8,7 +8,7 @@ import ValueProp from '../../components/ValueProp';
 import * as serviceWorker from '../../web/serviceWorker';
 
 /* 
-  Typical landing page would include these components 
+  Typical landing page includes these components 
 
       <div>
         <NavBar navBarShrink = {nbs} />

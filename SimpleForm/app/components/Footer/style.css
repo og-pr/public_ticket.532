@@ -1,15 +1,22 @@
-/* Extra media queries for responsiveness */
+/* Extra media queries for iOS + Android */
 @media (max-width: 768px) {
   .mobile-footer {
     /* top: 200px!important; */
-    margin-top: 230px!important; 
+    margin-top: 180px!important; 
     margin-left: -75px!important;  
     text-align: center;
   }
 }
 
+/* Extra media queries ONLY for iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+  .mobile-footer {
+    margin-top: 150px!important; 
+  } 
+}
+
 footer {
-  margin-top: -50px; /* adjust to match graphic */
+  margin-top: -50px; /* adjusted to match graphic */
   font-size: 14px;
   letter-spacing: 1px;
   text-align: center;
