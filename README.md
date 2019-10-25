@@ -31,7 +31,10 @@ Demo & Animated GIFs
 * [Google PageSpeed Analysis](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ft-532-react.web.app%2F&tab=mobile)    
 **Note** The demo will record email_addresses BUT will *not* send an email.     
 This prevents bad actors from sending [SPAM](https://en.wikipedia.org/wiki/Email_spam) or using the demo to disable or deny service.     
-* Animated GIFs = work in progress
+
+![Animated GIF - React Form iOS](https://github.com/og-pr/public_ticket.532/blob/master/SimpleForm/_docs/ezgif-720_ios.gif)
+![Animated GIF - React Form Android](https://github.com/og-pr/public_ticket.532/blob/master/SimpleForm/_docs/ezgif-720_android.gif)
+![Animated GIF - React Form Desktop](https://github.com/og-pr/public_ticket.532/blob/master/SimpleForm/_docs/ezgif-720_web.gif)
 
 Notes - Development
 ===========
