@@ -127,8 +127,8 @@ class SignupFormBase extends Component {
       <form className="formContainer" onSubmit={this.onSubmit}>
 
         <input
-          autocorrect="off" 
-          autocapitalize="off"
+          autoCorrect="off" 
+          autoCapitalize="off"
           name="email"
           required
           maxLength="70"
